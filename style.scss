@@ -201,15 +201,15 @@ button:active {
 
     p {
         color: white;
-        font-size: 9px;
-        line-height: 1.5;
+        font-size: 12px;
+        line-height: 1.6;
         font-family: "parrafo";
         position: relative;
         z-index: 10;
     }
 
     .mensaje-emotivo {
-        font-size: 11px !important;
+        font-size: 14px !important;
         line-height: 1.9 !important;
         color: #c9b8a3 !important; // Color café suave/beige
         text-align: center;
@@ -260,10 +260,15 @@ button:active {
 
         li {
             margin: 0;
+
+            p {
+                font-size: 11px;
+                font-weight: 500;
+            }
         }
 
         img {
-            height: 32px;
+            height: 38px;
         }
     }
 
@@ -326,9 +331,10 @@ button:active {
     margin-top: 10px;
 
     .dia {
-        font-size: 10px;
+        font-size: 13px;
         color: #fff;
         font-family: "parrafo";
+        font-weight: 500;
     }
 
     .g3 {
@@ -339,13 +345,14 @@ button:active {
         text-align: center;
 
         .d2 {
-            font-size: 32.2px;
+            font-size: 38px;
             padding-left: 4px;
             padding-right: 4px;
+            font-weight: bold;
         }
 
         .item {
-            font-size: 11px;
+            font-size: 13px;
             color: #fff;
             font-family: "parrafo";
             border-top: 1px solid #af9473;
@@ -354,6 +361,7 @@ button:active {
             margin: 0;
             padding-top: 3px;
             padding-bottom: 1px;
+            font-weight: 500;
         }
     }
 }
